@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: '{^_^}'
+title: My Identity in the connected world {^_^}'
 email: ravishankarhassain@gmail.com
 description: My Identity in the connected world
-baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: "/home"
+url: https://ravishankarhassain.github.io
 author:
   name: Ravishankar
   twitter:
