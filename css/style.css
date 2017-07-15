@@ -10,7 +10,13 @@ p{
 	color: white; 
 }
 h1{
-	font-family: cursive;
+	font-family: Handlee, cursive;
+	font-size: 45px;
+	text-align: center;
+	color: white; 
+}
+.awesomeness{
+	font-family: Arimo, cursive;
 	font-size: 45px;
 	text-align: center;
 	color: white; 
