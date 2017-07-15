@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{^_^} awesomeness</title>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<h1>My First awesome JavaScript with typed.js </h1>
+		<p>Typed.js is an <strong>Awesome</strong> library.</p>
+    	<p>It <em>types</em> out sentences.</p>
+		<div class="container">
+			<p class="type"></p>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$(".type").typed({
+					strings: ["I am an Engineer","I am a Java Developer","I am an opensource lover"],
+					typeSpeed: 100,
+					backDelay: 1000,
+					loop:true,
+ 					showCursor: false,
+  					cursorChar: "|",
+				});
+			});
+		</script>
+	</body>
+</html> 
+
+<!--
+
+This is the way to use and link google fonts to our html page
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+
+-->
