@@ -25,6 +25,17 @@
 </head>
 <body>
 	<main>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="index.html">Home</a>
+			<a href="#">About</a>
+			<a href="#">Blog</a>
+			<a href="resume.pdf">Resume</a>
+			<a href="#">Contact</a>
+		</div>
+		<div class="container">
+			<span id="menu" style="color:#0277BD;font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+		</div>
 		<div class="intro">Hello World!, I'm Ravishankar</div>
 		<div class="tagline">I am <span class="type"></span></div>
 		<script type="text/javascript">
@@ -38,6 +49,16 @@
 					cursorChar: "|",
 				});
 			});
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "250px";
+				document.getElementsByClassName("container").style.marginLeft = "250px";
+				document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+			}
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+				document.getElementsByClassName("container").style.marginLeft= "30px";
+				document.body.style.backgroundColor = "white";
+			}	
 		</script>
 		<div class="socialintro">This is my Identity in the connected world</div>
 		<div class="icons-social">
